@@ -1,0 +1,115 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-01-15 00:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.py:69
+msgid "Language set successfully!"
+msgstr ""
+
+#: main.py:135
+msgid ""
+"*Hello!👋 Send me the name of a song, and I'll start searching for it!*Help "
+"command: /help."
+msgstr ""
+
+#: main.py:146
+msgid ""
+"*About bot:*\n"
+"• This bot can search and download music from *YouTube Music*!\n"
+"• Bot saves downloaded tracks — if track already exist in downloads, bot "
+"will send file *instantly*!\n"
+"• All downloaded tracks available in [this channel](https://t.me/"
+"nekotune_db).\n"
+"• Absolutely free and without ad, *no need to subscribe to any channels*!\n"
+"\n"
+"*Available commands:*\n"
+"• /start — Start using bot.\n"
+"• /help — Show this message with hints.\n"
+"• /setlang — Change language.\n"
+"\n"
+"*How to use:*\n"
+"1. Send song name to start searching.\n"
+"2. Choose track you need from list.\n"
+"3. Get ready MP3 file with album cover!\n"
+"\n"
+"*Hints:*\n"
+"• Make sure that entered song name is correct.\n"
+"• If song name is foreign language (like Japanese), its likely to write in "
+"that language.\n"
+"• If you cant see your track in list, try to narrow your search! Example: "
+"for track Animal - Deco27 write not only \"Animal\", but \"Animal Deco\".\n"
+"• If you run into problem, try again or DM me! [CLICK](https://t.me/"
+"nekohepott).\n"
+msgstr ""
+
+#: main.py:177
+msgid "❌ There was an error while sending hint message. Try again later."
+msgstr ""
+
+#: main.py:192
+#, python-brace-format
+msgid "❌ Sadly, I couldn`t find track with query: *{query}*."
+msgstr ""
+
+#: main.py:224
+#, python-brace-format
+msgid ""
+"🔍*Search:* _{query}_\n"
+"⬇️*Choose track:*"
+msgstr ""
+
+#: main.py:242
+msgid "❗Error: data empty."
+msgstr ""
+
+#: main.py:264
+msgid "Track not found."
+msgstr ""
+
+#: main.py:273
+#, python-brace-format
+msgid ""
+"🔄 _{track_name}_ - *Downloading...\n"
+"I changed bot server, tracks downloading takes more time, wait...*"
+msgstr ""
+
+#: main.py:294
+#, python-brace-format
+msgid "❗ There was an error while downloading: {e}"
+msgstr ""
+
+#: main.py:317
+msgid "⚠️ Track name was cut due to file system limits."
+msgstr ""
+
+#: main.py:382
+msgid "❗ There was an error: timeout. Try again later."
+msgstr ""
+
+#: main.py:389
+#, python-brace-format
+msgid "❗ There was an error: {e}"
+msgstr ""
+
+#: main.py:413
+msgid "⏪Previous"
+msgstr ""
+
+#: main.py:416
+msgid "Next⏩"
+msgstr ""
