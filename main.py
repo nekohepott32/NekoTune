@@ -55,9 +55,9 @@ async def change_language(update: Update, context: CallbackContext):
 # prompt user to set language
 async def prompt_language_selection(update: Update, context: CallbackContext):
     keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton("English", callback_data="lang_en")],
-        [InlineKeyboardButton("Русский", callback_data="lang_ru")],
-        [InlineKeyboardButton("Українська", callback_data="lang_ua")]
+        [InlineKeyboardButton("🇬🇧English", callback_data="lang_en")],
+        [InlineKeyboardButton("🇺🇦Українська", callback_data="lang_ua")],
+        [InlineKeyboardButton("🇷🇺Русский", callback_data="lang_ru")]
     ])
     await update.message.reply_text(
         "Please choose your language:\nПожалуйста, выберите язык:\nБудь ласка, оберіть мову:",
