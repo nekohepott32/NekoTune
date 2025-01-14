@@ -99,7 +99,7 @@ DOWNLOAD_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "downlo
 # global
 user_page = {} # track page for user
 yt_music = YTMusic() # define YT Music
-isFirtsDownload = True # bool that define if track is downloaded first time or not
+isFirstDownload = True # bool that define if track is downloaded first time or not
 
 # create or check download directory
 os.makedirs(DOWNLOAD_PATH, exist_ok=True)
