@@ -173,6 +173,8 @@ async def help_command(update: Update, context: CallbackContext):
     "for track Animal - Deco27 write not only \"Animal\", but \"Animal Deco\".\n"
     "• If you run into problem, try again or DM me! [CLICK](https://t.me/"
     "nekohepott).\n"
+    "\n"
+    "This project is *open-source*! [GitHub](https://github.com/nekohepott32/NekoTune)"
     ))
 
     try:
