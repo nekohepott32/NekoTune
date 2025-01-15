@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-15 00:07+0200\n"
-"PO-Revision-Date: 2025-01-15 02:44+0200\n"
+"POT-Creation-Date: 2025-01-15 18:33+0200\n"
+"PO-Revision-Date: 2025-01-15 18:49+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -18,19 +18,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.5\n"
 
-#: main.py:69
+#: main.py:78
 msgid "Language set successfully!"
 msgstr "Language set successfully!"
 
-#: main.py:135
+#: main.py:80 main.py:143
 msgid ""
-"*Hello!👋 Send me the name of a song, and I'll start searching for it!*Help "
-"command: /help."
+"*Hello!👋 Send me the name of a song, and I'll start searching for it!*\n"
+"Help command: /help."
 msgstr ""
-"*Hello!👋 Send me the name of a song, and I'll start searching for it!*Help "
-"command: /help."
+"*Hello!👋 Send me the name of a song, and I'll start searching for it!*\n"
+"Help command: /help."
 
-#: main.py:146
+#: main.py:154
 msgid ""
 "*About bot:*\n"
 "• This bot can search and download music from *YouTube Music*!\n"
@@ -57,10 +57,10 @@ msgid ""
 "• If you cant see your track in list, try to narrow your search! Example: "
 "for track Animal - Deco27 write not only \"Animal\", but \"Animal Deco\".\n"
 "• If you run into problem, try again or DM me! [CLICK](https://t.me/"
-"nekohepott).\n"
+"nekohepott)\n"
 "\n"
 "This project is *open-source*! [GitHub](https://github.com/nekohepott32/"
-"NekoTune)\n"
+"NekoTune)"
 msgstr ""
 "*About bot:*\n"
 "• This bot can search and download music from *YouTube Music*!\n"
@@ -87,21 +87,20 @@ msgstr ""
 "• If you cant see your track in list, try to narrow your search! Example: "
 "for track Animal - Deco27 write not only \"Animal\", but \"Animal Deco\".\n"
 "• If you run into problem, try again or DM me! [CLICK](https://t.me/"
-"nekohepott).\n"
+"nekohepott)\n"
 "\n"
 "This project is *open-source*! [GitHub](https://github.com/nekohepott32/"
-"NekoTune)\n"
+"NekoTune)"
 
-#: main.py:177
+#: main.py:188
 msgid "❌ There was an error while sending hint message. Try again later."
 msgstr "❌ There was an error while sending hint message. Try again later."
 
-#: main.py:192
-#, python-brace-format
-msgid "❌ Sadly, I couldn`t find track with query: *{query}*."
-msgstr "❌ Sadly, I couldn`t find track with query: *{query}*."
+#: main.py:202
+msgid "❌ Sadly, I couldn`t find track with your query."
+msgstr "❌ Sadly, I couldn`t find track with your query."
 
-#: main.py:224
+#: main.py:233
 #, python-brace-format
 msgid ""
 "🔍*Search:* _{query}_\n"
@@ -110,45 +109,40 @@ msgstr ""
 "🔍*Search:* _{query}_\n"
 "⬇️*Choose track:*"
 
-#: main.py:242
+#: main.py:250
 msgid "❗Error: data empty."
 msgstr "❗Error: data empty."
 
-#: main.py:264
+#: main.py:272
 msgid "Track not found."
 msgstr "Track not found."
 
-#: main.py:277
-#, python-brace-format
-msgid ""
-"🔄 {track_name} - *Downloading...\n"
-"I changed bot server, tracks downloading takes more time, wait...*"
-msgstr ""
-"🔄 {track_name} - *Downloading...\n"
-"I changed bot server, tracks downloading takes more time, wait...*"
+#: main.py:281
+msgid "🔄 *Downloading...*"
+msgstr "🔄 *Downloading...*"
 
-#: main.py:294
+#: main.py:303
 #, python-brace-format
 msgid "❗ There was an error while downloading: {e}"
 msgstr "❗ There was an error while downloading: {e}"
 
-#: main.py:317
+#: main.py:326
 msgid "⚠️ Track name was cut due to file system limits."
 msgstr "⚠️ Track name was cut due to file system limits."
 
-#: main.py:382
+#: main.py:392
 msgid "❗ There was an error: timeout. Try again later."
 msgstr "❗ There was an error: timeout. Try again later."
 
-#: main.py:389
+#: main.py:399
 #, python-brace-format
 msgid "❗ There was an error: {e}"
 msgstr "❗ There was an error: {e}"
 
-#: main.py:413
+#: main.py:423
 msgid "⏪Previous"
 msgstr "⏪Previous"
 
-#: main.py:416
+#: main.py:426
 msgid "Next⏩"
 msgstr "Next⏩"

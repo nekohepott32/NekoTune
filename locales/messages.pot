@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-15 02:42+0200\n"
+"POT-Creation-Date: 2025-01-15 18:33+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,13 +21,13 @@ msgstr ""
 msgid "Language set successfully!"
 msgstr ""
 
-#: main.py:139
+#: main.py:80 main.py:143
 msgid ""
 "*Hello!👋 Send me the name of a song, and I'll start searching for it!*Help "
 "command: /help."
 msgstr ""
 
-#: main.py:150
+#: main.py:154
 msgid ""
 "*About bot:*\n"
 "• This bot can search and download music from *YouTube Music*!\n"
@@ -54,65 +54,61 @@ msgid ""
 "• If you cant see your track in list, try to narrow your search! Example: "
 "for track Animal - Deco27 write not only \"Animal\", but \"Animal Deco\".\n"
 "• If you run into problem, try again or DM me! [CLICK](https://t.me/"
-"nekohepott).\n"
+"nekohepott)\n"
 "\n"
 "This project is *open-source*! [GitHub](https://github.com/nekohepott32/"
 "NekoTune)"
 msgstr ""
 
-#: main.py:184
+#: main.py:188
 msgid "❌ There was an error while sending hint message. Try again later."
 msgstr ""
 
-#: main.py:198
-#, python-brace-format
-msgid "❌ Sadly, I couldn`t find track with query: *{query}*."
+#: main.py:202
+msgid "❌ Sadly, I couldn`t find track with your query."
 msgstr ""
 
-#: main.py:229
+#: main.py:233
 #, python-brace-format
 msgid ""
 "🔍*Search:* _{query}_\n"
 "⬇️*Choose track:*"
 msgstr ""
 
-#: main.py:246
+#: main.py:250
 msgid "❗Error: data empty."
 msgstr ""
 
-#: main.py:268
+#: main.py:272
 msgid "Track not found."
 msgstr ""
 
-#: main.py:277
-#, python-brace-format
-msgid ""
-"🔄 {track_name} - *Downloading...\n"
-"I changed bot server, tracks downloading takes more time, wait...*"
+#: main.py:281
+msgid "🔄 *Downloading...*"
 msgstr ""
 
-#: main.py:299
+#: main.py:303
 #, python-brace-format
 msgid "❗ There was an error while downloading: {e}"
 msgstr ""
 
-#: main.py:322
+#: main.py:326
 msgid "⚠️ Track name was cut due to file system limits."
 msgstr ""
 
-#: main.py:388
+#: main.py:392
 msgid "❗ There was an error: timeout. Try again later."
 msgstr ""
 
-#: main.py:395
+#: main.py:399
 #, python-brace-format
 msgid "❗ There was an error: {e}"
 msgstr ""
 
-#: main.py:419
+#: main.py:423
 msgid "⏪Previous"
 msgstr ""
 
-#: main.py:422
+#: main.py:426
 msgid "Next⏩"
 msgstr ""

@@ -77,7 +77,7 @@ async def set_language(update: Update, context: CallbackContext):
         await query.answer()
         await query.message.reply_text(_("Language set successfully!"))
         await query.message.reply_text(
-            _("*Hello!👋 Send me the name of a song, and I'll start searching for it!*Help command: /help."),
+            _("*Hello!👋 Send me the name of a song, and I'll start searching for it!*\nHelp command: /help."),
             parse_mode="Markdown"
         )
     else:
@@ -140,7 +140,7 @@ async def start(update: Update, context: CallbackContext):
     else:
         conn.close()
         await update.message.reply_text(
-            _("*Hello!👋 Send me the name of a song, and I'll start searching for it!*Help command: /help."),
+            _("*Hello!👋 Send me the name of a song, and I'll start searching for it!*\nHelp command: /help."),
             parse_mode="Markdown"
         )
 
@@ -176,7 +176,7 @@ async def help_command(update: Update, context: CallbackContext):
     "• If you cant see your track in list, try to narrow your search! Example: "
     "for track Animal - Deco27 write not only \"Animal\", but \"Animal Deco\".\n"
     "• If you run into problem, try again or DM me! [CLICK](https://t.me/"
-    "nekohepott).\n"
+    "nekohepott)\n"
     "\n"
     "This project is *open-source*! [GitHub](https://github.com/nekohepott32/NekoTune)"
     ))
@@ -199,7 +199,7 @@ async def search_music(update: Update, context: CallbackContext):
     if not tracks:
         log(f"No results found for query: {query}", "WARNING")
         await update.message.reply_text(
-        _("❌ Sadly, I couldn`t find track with query: *{query}*.").format(query=escape_markdown(query, version=2)),
+        _("❌ Sadly, I couldn`t find track with your query."),
         parse_mode="MarkdownV2"
         )
         return
@@ -278,7 +278,7 @@ async def process_track_selection(update: Update, context: CallbackContext, user
     
     progress_message = await query.message.reply_animation(
     animation="https://i.imgur.com/XU3VQQf.gif",
-    caption=_("🔄 {track_name} - *Downloading...\nI changed bot server, tracks downloading takes more time, wait...*").format(track_name=escape_markdown(track_name, version=2)),
+    caption=_("🔄 *Downloading...*"),
     parse_mode="Markdown")
 
     try:
