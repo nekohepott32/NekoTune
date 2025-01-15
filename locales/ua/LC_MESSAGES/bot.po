@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-01-15 00:07+0200\n"
-"PO-Revision-Date: 2025-01-15 01:34+0200\n"
+"PO-Revision-Date: 2025-01-15 02:44+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: uk\n"
@@ -117,13 +117,13 @@ msgstr "❗Помилка: дані відсутні."
 msgid "Track not found."
 msgstr "❗Помилка: дані відсутні."
 
-#: main.py:273
+#: main.py:277
 #, python-brace-format
 msgid ""
-"🔄 _{track_name}_ - *Downloading...\n"
+"🔄 {track_name} - *Downloading...\n"
 "I changed bot server, tracks downloading takes more time, wait...*"
 msgstr ""
-"🔄 _{track_name}_ - *Завантажується..\n"
+"🔄 {track_name} - *Завантажується..\n"
 "Я змінив сервер бота, треки завантажуються набагато довше, очікуйте...*"
 
 #: main.py:294

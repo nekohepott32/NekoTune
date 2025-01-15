@@ -274,10 +274,8 @@ async def process_track_selection(update: Update, context: CallbackContext, user
     
     progress_message = await query.message.reply_animation(
     animation="https://i.imgur.com/XU3VQQf.gif",
-    caption=_("🔄 _{track_name}_ - *Downloading...\nI changed bot server, tracks downloading takes more time, wait...*").format(
-        track_name=escape_markdown(track_name, version=2)
-    ),
-    parse_mode="MarkdownV2")
+    caption=_("🔄 {track_name} - *Downloading...\nI changed bot server, tracks downloading takes more time, wait...*").format(track_name=escape_markdown(track_name, version=2)),
+    parse_mode="Markdown")
 
     try:
         global isFirstDownload
