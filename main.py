@@ -76,6 +76,10 @@ async def set_language(update: Update, context: CallbackContext):
         _ = LANGUAGES[lang_code].gettext
         await query.answer()
         await query.message.reply_text(_("Language set successfully!"))
+        await query.message.reply_text(
+            _("*Hello!👋 Send me the name of a song, and I'll start searching for it!*Help command: /help."),
+            parse_mode="Markdown"
+        )
     else:
         await query.answer("Invalid language selection.", show_alert=True)
 
