@@ -278,6 +278,7 @@ async def process_track_selection(update: Update, context: CallbackContext, user
     parse_mode="Markdown")
 
     try:
+        global isFirstDownload
         mp3_file = await download_track(track_name, artists, video_url, update, context)
         await progress_message.delete()
         await query.message.reply_audio(audio=open(mp3_file, 'rb'), title=track_name, performer=artists)
@@ -325,6 +326,7 @@ async def download_track(track_name, track_artists, video_url, update, context):
         mp3_file = os.path.join(DOWNLOAD_PATH, f"{sanitized_name}_{video_id}.mp3")
 
         if os.path.exists(mp3_file): # if track file already in download directory, send it
+            global isFirstDownload
             log(f"MP3 file already exists at path: {mp3_file}", "INFO")
             isFirstDownload = False # also will not send it to channel
             return mp3_file
