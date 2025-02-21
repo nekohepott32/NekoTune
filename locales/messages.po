@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-15 18:33+0200\n"
+"POT-Creation-Date: 2025-02-21 05:43+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: main.py:78
+#: .\main.py:86
 msgid "Language set successfully!"
 msgstr ""
 
-#: main.py:80 main.py:143
+#: .\main.py:88 .\main.py:153
 msgid ""
-"*Hello!👋 Send me the name of a song, and I'll start searching for it!*Help "
-"command: /help."
+"*Hello!👋 Send me the name of a song, and I'll start searching for it!*\n"
+"Help command: /help."
 msgstr ""
 
-#: main.py:154
+#: .\main.py:163
 msgid ""
 "*About bot:*\n"
-"• This bot can search and download music from *YouTube Music*!\n"
+"• This bot can search and download music from *Spotify*!\n"
 "• Bot saves downloaded tracks — if track already exist in downloads, bot "
 "will send file *instantly*!\n"
 "• All downloaded tracks available in [this channel](https://t.me/"
@@ -60,55 +60,55 @@ msgid ""
 "NekoTune)"
 msgstr ""
 
-#: main.py:188
+#: .\main.py:195
 msgid "❌ There was an error while sending hint message. Try again later."
 msgstr ""
 
-#: main.py:202
+#: .\main.py:209
 msgid "❌ Sadly, I couldn`t find track with your query."
 msgstr ""
 
-#: main.py:233
+#: .\main.py:247
 #, python-brace-format
 msgid ""
 "🔍*Search:* _{query}_\n"
 "⬇️*Choose track:*"
 msgstr ""
 
-#: main.py:250
+#: .\main.py:265
 msgid "❗Error: data empty."
 msgstr ""
 
-#: main.py:272
+#: .\main.py:287
 msgid "Track not found."
 msgstr ""
 
-#: main.py:281
+#: .\main.py:297
 msgid "🔄 *Downloading...*"
 msgstr ""
 
-#: main.py:303
+#: .\main.py:325
 #, python-brace-format
 msgid "❗ There was an error while downloading: {e}"
 msgstr ""
 
-#: main.py:326
+#: .\main.py:350
 msgid "⚠️ Track name was cut due to file system limits."
 msgstr ""
 
-#: main.py:392
+#: .\main.py:410
 msgid "❗ There was an error: timeout. Try again later."
 msgstr ""
 
-#: main.py:399
+#: .\main.py:417
 #, python-brace-format
 msgid "❗ There was an error: {e}"
 msgstr ""
 
-#: main.py:423
+#: .\main.py:441
 msgid "⏪Previous"
 msgstr ""
 
-#: main.py:426
+#: .\main.py:444
 msgid "Next⏩"
 msgstr ""

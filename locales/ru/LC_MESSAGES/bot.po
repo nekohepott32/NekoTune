@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-01-15 18:33+0200\n"
-"PO-Revision-Date: 2025-01-15 18:48+0200\n"
+"POT-Creation-Date: 2025-02-21 05:43+0200\n"
+"PO-Revision-Date: 2025-02-21 05:49+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -18,11 +18,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.5\n"
 
-#: main.py:78
+#: .\main.py:86
 msgid "Language set successfully!"
 msgstr "Язык изменён!"
 
-#: main.py:80 main.py:143
+#: .\main.py:88 .\main.py:153
 msgid ""
 "*Hello!👋 Send me the name of a song, and I'll start searching for it!*\n"
 "Help command: /help."
@@ -30,10 +30,10 @@ msgstr ""
 "*Привет!👋 Отправь мне название песни, и я начну её искать!*\n"
 "Помощь бо боту - /help."
 
-#: main.py:154
+#: .\main.py:163
 msgid ""
 "*About bot:*\n"
-"• This bot can search and download music from *YouTube Music*!\n"
+"• This bot can search and download music from *Spotify*!\n"
 "• Bot saves downloaded tracks — if track already exist in downloads, bot "
 "will send file *instantly*!\n"
 "• All downloaded tracks available in [this channel](https://t.me/"
@@ -63,7 +63,7 @@ msgid ""
 "NekoTune)"
 msgstr ""
 "*О боте:*\n"
-"• Этот бот может искать и загружать музыку с *YouTube Music*!\n"
+"• Этот бот может искать и загружать музыку со *Spotify*!\n"
 "• Бот сохраняет загруженные треки — если трек есть в загруженных, бот "
 "отправит файл *моментально*!\n"
 "• Все загруженные треки есть в [этом канале](https://t.me/nekotune_db).\n"
@@ -93,15 +93,15 @@ msgstr ""
 "Этот проект с *открытым исходным кодом*! [GitHub](https://github.com/"
 "nekohepott32/NekoTune)"
 
-#: main.py:188
+#: .\main.py:195
 msgid "❌ There was an error while sending hint message. Try again later."
 msgstr "❌ Произошла ошибка при отправке подсказки. Попробуйте позже."
 
-#: main.py:202
+#: .\main.py:209
 msgid "❌ Sadly, I couldn`t find track with your query."
 msgstr "❌ К сожалению, я не смог найти трек по вашему запросу."
 
-#: main.py:233
+#: .\main.py:247
 #, python-brace-format
 msgid ""
 "🔍*Search:* _{query}_\n"
@@ -110,41 +110,41 @@ msgstr ""
 "🔍*Поиск:* _{query}_\n"
 "⬇️*Выбери трек:*"
 
-#: main.py:250
+#: .\main.py:265
 msgid "❗Error: data empty."
 msgstr "❗Ошибка: данные отсутствуют."
 
-#: main.py:272
+#: .\main.py:287
 msgid "Track not found."
 msgstr "Трек не найден."
 
-#: main.py:281
+#: .\main.py:297
 msgid "🔄 *Downloading...*"
 msgstr "🔄 *Загружается...*"
 
-#: main.py:303
+#: .\main.py:325
 #, python-brace-format
 msgid "❗ There was an error while downloading: {e}"
 msgstr "❗ Произошла проблема при загрузке: {e}"
 
-#: main.py:326
+#: .\main.py:350
 msgid "⚠️ Track name was cut due to file system limits."
 msgstr ""
 "⚠️ Название трека было укорочено из-за ограничений длины файловой системы."
 
-#: main.py:392
+#: .\main.py:410
 msgid "❗ There was an error: timeout. Try again later."
 msgstr "❗ Произошла ошибка: время ожидания истекло. Попробуйте снова позже."
 
-#: main.py:399
+#: .\main.py:417
 #, python-brace-format
 msgid "❗ There was an error: {e}"
 msgstr "❗ Произошла ошибка: {e}"
 
-#: main.py:423
+#: .\main.py:441
 msgid "⏪Previous"
 msgstr "⏪Назад"
 
-#: main.py:426
+#: .\main.py:444
 msgid "Next⏩"
 msgstr "Дальше⏩"
