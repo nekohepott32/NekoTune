@@ -8,4 +8,4 @@
 </div>
 
 
-<p align="center">Known issues: Pagination not working</p>
+<p align="center">Known issues: May download random yt videos</p>
